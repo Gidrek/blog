@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+.vscode/
+giovannicortes.*
+.DS_Store
+vendor/
+.bundle/
+.jekyll-cache

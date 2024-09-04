@@ -1,0 +1,31 @@
+title: Gidrek
+site_autor: Giovanni Cortes
+email: me@gidrek.com
+description: > # this means to ignore newlines until "baseurl:"
+  Creating games and apps
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gidrek.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: gidrekdev
+github_username:  gidrek
+youtube_channel: 
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+permalink: /:title/
+
+# Build settings
+markdown: kramdown
+markdown_ext: md
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - giovannicortes.sublime-workspace
+  - giovannicortes.sublime-project
+  - vendor
+  - .gitignore
+include:
+  - _pages

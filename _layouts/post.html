@@ -1,0 +1,26 @@
+---
+layout: default
+title: {{ this.title }}
+---
+
+<article>
+    <h2>{{ page.title }}</h2>
+    
+    <p>
+        <time itemprop="datePublished" content="{{ page.date  | date: "%d-%m-%Y" }}">
+            {{ page.date | date: "%d-%m-%Y" }}</time>
+        <time itemprop="dateModified" content="{{ page.date  | date: "%d-%m-%Y" }}"></time>
+    </p>
+
+    {{ content }}
+</article>
+
+<footer>
+    <p><a href="/">Return home</a></p>
+</footer>
+
+<div class="comments">
+    {% if jekyll.environment == 'production' %}
+    {% include disqus_comments.html %}
+    {% endif %}
+</div>

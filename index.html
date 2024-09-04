@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h2>Hi there 👋</h2>
+
+<p>Software engineer with an interest for programming, game development and learning.</p>
+
+<h2>Articles</h2>
+
+<ul>
+    {% for post in site.posts %}
+    <li><a href="{{ post.url }}" class="text-dark">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
