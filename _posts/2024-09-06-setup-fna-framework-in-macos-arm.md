@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Setup FNA Framework in macOS with Apple Processors
-date:   2024-09-06 08:00:00 -0600
+date:   2024-09-06 07:00:00 -0600
 description: Setup FNA Framework in macOS with Apple Processors
 categories: GameDev
 ---
